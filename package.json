@@ -1,18 +1,25 @@
 {
-  "name": "Interactive Whiteboard",
+  "name": "InteractiveWhiteboard",
   "version": "0.0.1",
-  "private": true,
+  "description": "Realtime drawing board system",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "node",
+    "draw",
+    "system"
+  ],
   "engines": {
     "node": "0.10.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rohan591/draw"
+    "url": "https://github.com/rohan591/draw.git"
   },
+  "author": "Rohan",
+  "license": "MIT",
   "dependencies": {
     "express": "3.0.x",
     "jade": "*",
