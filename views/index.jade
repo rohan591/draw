@@ -1,7 +1,7 @@
 doctype html
 html
     head
-        title= title
+        title= "Interactive Whiteboard | Rohan"
         link(rel='stylesheet', href='/stylesheets/style.css')
         script(src='/socket.io/socket.io.js')
         script(src='/javascripts/lib/zepto.js')
@@ -22,5 +22,5 @@ html
         div(data-color="77,42,255", class="color", style="background:rgb(77,42,255);")
         div(data-color="255,255,255", class="color", style="background:rgb(255,255,255);")
         label Opacity
-            input(type="range", min="0", max="255", value="200", id="opacity")
+            input(type="range", min="0", max="255", value="255", id="opacity")
 canvas(id="myCanvas", resize="true")
