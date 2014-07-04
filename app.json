@@ -1,0 +1,6 @@
+{
+  "name": "InteractiveWhiteboard",
+  "description": "Interactive Whiteboard",
+  "repository": "https://github.com/rohan591/draw",
+  "keywords": ["node", "express", "static"]
+}
